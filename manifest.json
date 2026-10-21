@@ -1,0 +1,10 @@
+{
+  "id": "month-planner",
+  "name": "Month Planner",
+  "version": "0.1.2",
+  "minAppVersion": "1.13.7",
+  "description": "Plan deadlines in a monthly calendar, organize custom categories, and record daily progress with manual iCalendar import and export.",
+  "author": "Muel-Cassini",
+  "isDesktopOnly": false,
+  "authorUrl": "https://github.com/Muel-Cassini"
+}

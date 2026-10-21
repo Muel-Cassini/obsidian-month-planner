@@ -1,0 +1,14 @@
+# Runtime assets are generated from reviewed source and attached to releases.
+/main.js
+/ui.html
+/dist/
+/node_modules/
+/coverage/
+# Never commit vaults, plugin state, credentials, or local app profiles.
+/.obsidian/
+**/data.json
+**/data.previous.json
+.env
+.env.*
+*.log
+/.git-credentials

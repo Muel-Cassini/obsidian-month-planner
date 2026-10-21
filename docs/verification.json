@@ -1,0 +1,71 @@
+{
+  "applicationTitle": "月计划 - .community-install-qa-vault - Obsidian 1.14.4",
+  "version": "0.1.2",
+  "passed": 12,
+  "checks": [
+    {
+      "name": "Uses a separate packaging QA vault",
+      "passed": true
+    },
+    {
+      "name": "Loads version 0.1.2 from only the three release assets",
+      "passed": true
+    },
+    {
+      "name": "No separate HTML or calendar runtime file is installed",
+      "passed": true
+    },
+    {
+      "name": "Reads the existing schema and UID namespace without resetting data",
+      "passed": true
+    },
+    {
+      "name": "Renders the deadline and handwritten progress in the embedded interface",
+      "passed": true
+    },
+    {
+      "name": "Creates and saves tasks after a clean community-style installation",
+      "passed": true
+    },
+    {
+      "name": "Saved tasks reach data.json on disk",
+      "passed": true
+    },
+    {
+      "name": "Category deletion preserves migrated legacy deadline and handwritten records",
+      "passed": true
+    },
+    {
+      "name": "Bundled calendar module generates the migrated deadline file",
+      "passed": true
+    },
+    {
+      "name": "Markdown review export works from the self-contained package",
+      "passed": true
+    },
+    {
+      "name": "Native app reload retains migrated categories and newly added tasks",
+      "passed": true
+    },
+    {
+      "name": "No runtime exceptions observed",
+      "passed": true
+    }
+  ],
+  "files": [
+    {
+      "file": "main.js",
+      "sha256": "86b1b46e8cdd0cf4c48e93391f89fa71b0e644547e5b0c9c0ad3caf5eb940e72"
+    },
+    {
+      "file": "manifest.json",
+      "sha256": "8dc0aac67a4e65601d643f1b4a9b0f6912aa76bab76fd695672726f8175f81bf"
+    },
+    {
+      "file": "styles.css",
+      "sha256": "2fd950da92b80e5ed61729eb84045c7939949119a253349b96ae3a1eaf735e2b"
+    }
+  ],
+  "runtimeErrors": [],
+  "iosHardwareTested": false
+}

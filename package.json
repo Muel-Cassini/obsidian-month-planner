@@ -1,0 +1,20 @@
+{
+  "name": "month-planner",
+  "version": "0.1.2",
+  "private": true,
+  "description": "Plan deadlines in a monthly calendar, organize custom categories, and record daily progress with manual iCalendar import and export.",
+  "license": "MIT",
+  "author": "Muel-Cassini",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muel-Cassini/obsidian-month-planner.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test tests/*.test.cjs",
+    "check": "node scripts/check-release.mjs"
+  }
+}
